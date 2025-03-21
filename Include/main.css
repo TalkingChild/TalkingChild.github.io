@@ -1,0 +1,203 @@
+.bodyStyle { 
+	margin: 0px 0px 0px 0px;
+	background-image: url(../Images/bg.gif);
+	background-repeat: repeat;
+	font-size: 12px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-align: center;
+
+}
+
+.contentDivStyle 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	text-align: left;
+}
+
+
+.bodyTextStyle { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+}
+
+.input10
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	width: 15em;
+}
+
+.navLinkClass
+{
+	color: White;
+}
+
+.print
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10pt;
+}
+
+.smallPrint
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 8pt;
+}
+
+H3 
+{
+	font-size: 14px;
+	margin-bottom: 14px;
+	margin-top: 0px;
+}
+
+P
+{
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+
+.linkStyle 
+{
+	cursor: hand;
+	color: Blue;
+	text-decoration: underline;
+}
+
+.smallTextStyle { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+}
+
+.minorLinkStyle { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: White;
+}
+
+.inputStyle
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	width: 500px;
+}
+
+
+
+
+.body2Style { 
+	font-size: 12px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+.body3Style { 
+	margin: 0px 0px 0px 0px;
+}
+
+.boy
+{
+	background-color: lightblue;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 7pt;
+	border-bottom: solid 1px black;
+	border-right: solid 1px black;
+	border-left: solid 1px black;
+}
+
+.girl
+{
+	background-color: pink;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 7pt;
+	border-bottom: solid 1px black;
+	border-right: solid 1px black;
+	border-left: solid 1px black;
+}
+
+.d
+{
+	border-bottom: solid 1px black;
+}
+
+.dl
+{
+	border-bottom: solid 1px black;
+	border-left: solid 1px black;
+}
+
+.dr
+{
+	border-bottom: solid 1px black;
+	border-right: solid 1px black;
+}
+
+.dlr
+{
+	border-bottom: solid 1px black;
+	border-right: solid 1px black;
+	border-left: solid 1px black;
+}
+
+.itemsListSmallTableClass
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	background-color: white;
+}
+
+.featuredItemSmallTableClass
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	background-color: F6DAF7;
+}
+
+.bodyTextClass
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+}
+
+.quantityInputClass
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+}
+
+.cartHeaderClass
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	background-color: #D0D0D0;
+}
+
+.quantityInputClass
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	width: 5em;
+}
+
+
+.cartFooterClass
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	background-color: #D0D0D0;
+}
+
+.bestSellersClass
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	background-color: F6DAF7;
+}
+
+.itemTableClass
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+}
+
+
