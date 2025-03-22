@@ -12,7 +12,7 @@
 	function ondocumentload()
 	{
 		// Preload images for this page
-		new Image().src = "Images/framedBaby2.gif";
+		new Image().src = "Images/framedbaby2.gif";
 		new Image().src = "Images/happybaby.gif";
 		new Image().src = "Images/happybaby2.gif";
 		
@@ -25,18 +25,18 @@
 		new Image().src = "Images/Buttons/faq2.gif";
 		new Image().src = "Images/Buttons/whatis2.gif";
 		
-		new Image().src = "Images/bbhome2.gif";
-		new Image().src = "Images/bbhome3.gif";
-		new Image().src = "Images/bbhome4.gif";
-		new Image().src = "Images/bbhome5.gif";
+		// new Image().src = "Images/bbhome2.gif";
+		// new Image().src = "Images/bbhome3.gif";
+		// new Image().src = "Images/bbhome4.gif";
+		// new Image().src = "Images/bbhome5.gif";
 
 		// Preload sounds
-		new Image().src = "Sounds/soundclip.wav";
-		new Image().src = "Sounds/soundclip1.wav";
-		new Image().src = "Sounds/soundclip2.wav";
-		new Image().src = "Sounds/soundclip3.wav";
-		new Image().src = "Sounds/soundclip4.wav";
-		new Image().src = "Sounds/soundclip5.wav";
+		//new Image().src = "Sounds/soundclip.wav";
+		//new Image().src = "Sounds/soundclip1.wav";
+		//new Image().src = "Sounds/soundclip2.wav";
+		//new Image().src = "Sounds/soundclip3.wav";
+		//new Image().src = "Sounds/soundclip4.wav";
+		//new Image().src = "Sounds/soundclip5.wav";
 
 		g_fLocked = false;
 		setTimeout(peekHappyBaby, 5000);
@@ -73,8 +73,8 @@
 
 		switch(g_iFramedImage)
 		{
-			case 0: tSource = "framedBaby.gif"; break;
-			case 1: tSource = "framedBaby2.gif"; break;
+			case 0: tSource = "framedbaby.gif"; break;
+			case 1: tSource = "framedbaby2.gif"; break;
 		}
 		document.all.FramedImage.src = "Images/" + tSource;
 		g_iFramedImage = (g_iFramedImage + 1) % 2;
