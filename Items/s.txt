@@ -1,0 +1,72 @@
+1. During the game setup, discretely pay attention to the way your opponent is setting up his pieces. A novice player will spend the majority of the early part of his setup to where he places his flag, since this is his most important piece. Notice where he spends a lot of his early setup time, and this is an area you should pay attention to. Although not always the location of the flag, this is usually a crutial area of your opponent's game plan. 
+
+2. Similarly, When setting your pieces up, first randomly put pieces each on their own square, then start moving pieces to their correct square. Work on different areas at the same time. The goal here is to not provide any initial clues where your flag is. 
+
+3. It is usually a good idea to setup your flag surrounded by bombs. Try to use as few bombs for protection by setting the flag close to a playing field border, such as the side of the board or a lake. 
+
+4. Most important rule to remember, so you can deviate from other rules if necessary! Of course, each game against the same opponent, alternate your flag location as well as bomb setups, to insure you opponent can't predict where your flag is located. I often use similar setups as far as bomb locations, but alternate where my flag is located. Once my opponent figures out my bomb formation for certain setups, he has to guess between three different locations for my flag. 
+
+5. Set some scouts in the front line spaces not blocked by the lakes. Setup anywhere from three to six scouts in these positions, especially if you suspect your opponent's flag is on that side of the board. Because of their attack by distance property, you can learn a lot about your opponent's initial setup by utilizing these scouts early in the game. 
+
+6. Leave at least two miners in the back row or two. Keep these miners separated by at least one piece, preferably at least two pieces. Miners are relatively weak pieces but can determine the outcome of games in late stages. In the back row, miners are relatively protected. Keeping your miners separated will ensure that your opponent's higher ranking piece will not wipe out both before you form a counter-attack 
+
+7. Keep two or more scouts in the last two rows of your board and within close range of direct lanes to attack your opponent. Scouts come in real handy at the end of games where their ability to attack from far away can surprise your opponent. 
+
+8. I have read strategies that recomend placing the Marshall on the other side of your board from the General (One guarding the left side, and the other guarding the right side). I personally recommend using this strategy for less than 40% of your setups, but if using this strategy you should keep both colonels in the middle defending this ungaurded area. I usually set both my Marshall and General in the center of my board. They can usually reach the right and left sides of my defense lines without my opponent reaking too much havoc. 
+
+9. A great way to catch your opponent off-guard is to setup your spy next to your general. Use your general to attack your opponent's pieces in its vicinity, then move your general back to it's original location next to your spy. You can also move your spy up to back up your general, as long as there are other pieces surrounding your spy. 
+
+10. It is a generally good idea not setup same ranked pieces adjacent to each other. You are generally not gaining much by keeping the same ranked piece adjacent to another, since you can only attack by one piece. Also, your opponent's higher ranking piece can easily blow through your formation if they are all the same value. Generally, space your pieces out across the board. 
+
+11. A general rule I live by in any setup: make sure your flag is guarded (with either bombs or high ranking officials), but if guarded by bombs, try to avoid placing these unmoveable pieces in the center of the board, blocking the movement of your other pieces to other areas of the board. You want to be able to move your pieces from one side of the board to the other without too many obstacles in between. 
+
+
+Game Play
+1. Given a choice of attacking your opponent's known lesser ranking piece, attack first with pieces you've already attacked with, as your opponent might still remember what this piece is. If given the choice of removing your opponent's piece with two pieces your opponent has not seen yet, attack with the less ranking (higher number) piece, as this piece is more affordable to lose if your opponent has a counter-attack. 
+
+2. Try to keep track of all the pieces your opponent has moved in the game. If you are able to get the advantage of having an invincible piece (ex: a Marshall once you get rid of his Marshall and Spy), you can use this indestructible piece to eliminate all your opponent's moved pieces. 
+
+3. Particularly, keep track of your opponent's high ranking pieces (4 or less). Since these are crutial pieces to winning, you will want to take out these pieces first before worrying about lesser ranking pieces. 
+
+4. Keep track of what opponent pieces have been removed and how many of these pieces he started the game with. Use this to determine how many of each valued piece he still has, and alternate your strategy accordingly. 
+
+5. If you have an invincible piece, trade off your lesser valued pieces with equal valued opponent's pieces. (For example, with a invincible Marshall, attack your opponent's Colonel with your Colonel to remove both of them). This will reduce the number of pieces you have to pay attention to, so you don't go and blow up your invincible piece with a bomb. 
+
+6. At the begining of the game don't try to capture your opponent's flag if you 'think' you know where it is. Use the early time to find out where his higher ranking pieces are located. Only later once a lot of your opponent's pieces have been removed can you guess the pattern of his bombs and flag. Only then should you make a serious attempt at capturing his flag. 
+
+7. Remember which of your pieces you have moved and which ones have not moved. If your opponent puts himself in the position to defeat two closely ranking pieces, move the piece that has moved. Your opponent might not attack the other piece, as he might think it is a bomb. 
+
+8. Always have a goal before moving a piece, especially pieces you are moving for the first time. Pieces that you have not moved can always be left alone to act like they are bombs, which your opponent will generally avoid attacking with anything except a miner or low valued piece. 
+
+9. Once your Marshall is exposed, watch out for your opponent's spy. Generally players play the spy different than any other piece, usually guarding it with another piece. Once your Marshall is exposed, you can usually guess which of your opponent's pieces is the spy just by its movement. A great piece to take out the spy is your scout, since it has the attack from a distance attribute. 
+
+10. Once your opponent's Marshall is removed, your spy becomes the weakest piece on the board. Instead of using my scout to engage unknown opponent pieces, I send my spy, as the scout can become very important in the end game due to its attack from a distance property. 
+
+11. Guard your General with your Spy. Use your General to attack your opponent's lower valued pieces that come close to your general, then bring him back to the square adjacent to your Spy. If your opponent attacks your General with his Marshall, you counter-attack with your Spy. 
+
+12. Pay careful attention to your opponent's reactions to your moves. He will often use his strong pieces to defend the area where his flag is located. 
+
+13. If upon starting the game, your opponent has bombed off one of his front lines, it is usually a good idea to leave them bombed off, as this is an area you don't have to worry about during the game. 
+
+14. Sometimes, you can bluff your opponent to get him to move one of his strong pieces away from your territory. If you know your opponent has not seen one of your weak pieces, and knows that you still have a piece stronger piece than his, use this unknown piece aggressively, as if it is going to attack your opponent's strong piece
+this should buy you some time to mount a counter attack on the other side of the board.
+
+FLAG:  
+   X     or   X_
+  XFX        XF_
+
+SPY
+-keep it a secret as long as possible
+
+MINERS 
+-keep in back two rows. use for later stage of game once you know where mines are
+
+idea:
+-Marshal, general, and possibly coronels are too valuable and should rarely go exploring in enemy territory. these pieces should only attack pieces that have already moved and know or strongly suspect are a lesser rank
+
+SCOUTS
+become more valuable at the end when can move quickly so place some in rear rank
+
+killer pack idea on front and second line:
+scout  sergeant(major)
+miner  colonel (general)
