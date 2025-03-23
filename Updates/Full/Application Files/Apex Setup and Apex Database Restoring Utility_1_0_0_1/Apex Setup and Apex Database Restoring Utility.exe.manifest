@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Apex Setup and Apex Database Restoring Utility.exe" version="1.0.0.1" publicKeyToken="c3678729bb7ac250" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Apex Setup and Apex Database Restoring Utility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Apex Setup and Apex Database Restoring Utility.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3" />
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Apex Setup and Apex Database Restoring Utility.exe" size="65120">
+      <assemblyIdentity name="Apex Setup and Apex Database Restoring Utility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>zdREs5sevr4O2Ma+WWl/Kk/60fQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Apex Setup and Apex Database Restoring Utility.exe.config" size="167">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zs0/m2EC7bZkaMXI4CN7NV2RQzg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Apex Software.application" size="14616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MzCk9ovH//c751qPhz0Klb9GDkI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ActiveReports.dll.deploy" size="877688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vwJOF5AUfk1IkBlfjPavKuA5Vsk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ActiveReports.HtmlExport.dll.deploy" size="746640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jB/SLSsST2kyfMxHFSS43aISSs8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ActiveReports.PdfExport.dll.deploy" size="259208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uMX9LeZHbx+fgpkcw8O7PbojUvg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ActiveReports.RtfExport.dll.deploy" size="74936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>I7QNt7lRkiBOLc3Hj344CqR9OF0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ActiveReports.TextExport.dll.deploy" size="58512">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Hz6KShx5zHMLTBbeL+yonBRZHCE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ActiveReports.TiffExport.dll.deploy" size="58568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OUxdcE3yvA0qk226AihLXi0ZY6c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ActiveReports.Viewer.dll.deploy" size="590960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TFRFz2m1zAWYA50mI5kiGJGHOko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ActiveReports.XlsExport.dll.deploy" size="287888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XgU0kDeXxEicGVuQ81MBEe1WB1s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Apex Software.application" size="14616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MzCk9ovH//c751qPhz0Klb9GDkI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Apex Software.exe.config.deploy" size="144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cpzNzlRjZspwKGLNlX6RAlU3880=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Apex Software.exe.deploy" size="412256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jRPb2S1o01Ej14/2xEoUAkgK3R4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Apex Software.exe.manifest" size="55324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DWtUy5d8IHk2qDW9SKXTsD1vdDI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Apex Software.XmlSerializers.dll.deploy" size="35840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Q8hkOt1nqkCB+LMDV1FhX6tZcOo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Apex32BitBOs.dll.deploy" size="9216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PdJP2DPapnMHXHENrxlaxELQ+iY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexActivitiesCtls.dll.deploy" size="98304">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hiY6WUB84DPFVMDiK05uEoJNPHQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexBaseClasses.dll.deploy" size="126976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>S61r945vhT8uys+8ASxQ2PplM5U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexBaseClasses64.dll.deploy" size="10752">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dtDj1Bw8gz4Pb5maKGNqspaPWe4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexBaseCtls.dll.deploy" size="278528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EaHy3kfc6GFWdpvPU5eYs/fJ+yQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexBenefitCtls.dll.deploy" size="274432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gz6rtc4HHiuOeIZeXFbhIf9mpMo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexBOs.dll.deploy" size="1069056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>i8FK/33PQlAcG99h9sgfhGYApLM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexCompanyCtls.dll.deploy" size="348160">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Fk7xpZIoEQ5Hny3u1Cko3n3i/dk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexCourseCtls.dll.deploy" size="139264">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>a9tg42R2EO7kk27eME2SuQu4+bU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexCustomFieldCtls.dll.deploy" size="98304">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>q5ojbHawDZp7A+NvFN7yVd/9a6E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexEmployeeCtls.dll.deploy" size="393216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bNMgqDYtjnfbsXuj2xbv1Rw/Njo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexEmployeeLeaveCtls.dll.deploy" size="540672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>IkMnY8Uztn06bBwb0J4LBU11e/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexExpenseCtls.dll.deploy" size="94208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Awr2OJ3ckfwaBIUKxY4NaQ4G4/E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexGlobal.dll.deploy" size="114688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UZLXqWlp6cyZ/tpBn4zNrsWY63U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexHolidayCtls.dll.deploy" size="32768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>t78JjL8kEH40DXG8AD3faKC69bc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexInjuryCtls.dll.deploy" size="73728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FIkoyLnAm9hYvsU9tovJD3+fvyw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexInvoices.dll.deploy" size="278528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mDAI7DmaKxBckLO0oWLXYqvQeFM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexLeaveCtls.dll.deploy" size="565248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gdvC9QwOOdPWpdiHiwhxpCgc2Y8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexNoteCtls.dll.deploy" size="61440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LYTJWUOD6r2wUtqpyA1BeYagT54=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexOccurrences.dll.deploy" size="90112">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>b6U9JH/adGmbPZJin6BmpF03d9E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexOrgCtls.dll.deploy" size="143360">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zArmj+WNZZt3A0p28rQ1i5rJPxY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexPeopleCtls.dll.deploy" size="442368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4DdMOUwbi0tDnvFB2tZmvXIfON0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexPeopleGridCtls.dll.deploy" size="94208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p1ilQk3w+g0DA9uUrk9bb/YTelE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexProjects.dll.deploy" size="73728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7iUKgl8KEguBvE0mxBslNWO6SGk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexRecruitmentCtls.dll.deploy" size="184320">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wlv+739B2kUTREbIKWS/Wnk/gUg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexReportCustomCtls.dll.deploy" size="90112">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EUbL9dPB5MFOUBdXytSVr4gg0HQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexReportObjects.dll.deploy" size="753664">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>u98FgJh0AzQe4RHr/2JDPwCHchk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexReports.dll.deploy" size="659456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7WqDQytxIbP+ulgucoLpeZxELfE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexSecurity.dll.deploy" size="126976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XijdAJUZBjyyWW/CJGufXGS436E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexSelectBoxes.dll.deploy" size="417792">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>K0QtdPFMXbvv9qrdgFNOGl3nBVU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexTerminals.dll.deploy" size="126976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wn4XHgAZYsVeAi4r5LBSNOOAjMo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\ApexWizards.dll.deploy" size="221184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ldbfEf8LFalgiF6vt5r0HErmks8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\frmItemExample.txt.deploy" size="3623">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gy4F4j+utz1rJiB8AgctkkBV/zU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\apex.ico.deploy" size="22846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ifx97u7gT+HbEbh77JYTxiKJOjI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\applicant info.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0tFHPPHQtq03woOoy8dvTvuqPWQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\career.bmp.deploy" size="886">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3pe3IMToT9N3kvThr+FkKm+Od3w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\cobra.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pGwo1chXAK1C4f+5yYDs75CXsqg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\communication.bmp.deploy" size="1334">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AqX15HNtEhBz3xEBn9Mkz/HjSVE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\compensation and benefits.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UnHHT/Gepa4Vsb7Nax6bdmnTnjg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\deductions and contributions.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wrW8hoBA3IAkFAlaNlqj0NMabCE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\degrees and certifications.bmp.deploy" size="1334">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3l83evkDhUjviPDKmxvbRr16PS8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\equipment.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fnSY/inlSb/ju7oLm62Y7LvvJxM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\general.bmp.deploy" size="1334">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>otdvNxXDFlrK2dXFbqejbgMOqHE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\home and emergency contacts.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tIhyuUeYmUeoKWQkCFjdyAan6NU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\injuries.bmp.deploy" size="1330">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/GH2pss5avB7kbFNr0YBDZe24Zk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\other.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4eIcSkZtLM6F8wp1/TV4P9ZRk6g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\personal.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8m1WMdUUBnligsPWfCkqRlSfZnw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\preemployment and exit checklists.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8TuoB8plgS+dMSCTrWZ2B6lTdy8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\previous employers.bmp.deploy" size="774">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hy/ldnjYkPmtsCMpdzlgfcH+ybM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\prodemote.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gOrJ6P0dfLd9MJMZb5xtcdueGdo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\promote.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QMqwUFxXciM/t8OI2Zrboysk9Dc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\promoteDn.bmp.deploy" size="246">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>a1wIOC6L3OiCmDUqrgxUYQuzxws=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\promoteUp.bmp.deploy" size="246">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>keYYzR9/fNlae8BeyYSeCqQNuFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\Report.ico.deploy" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>twfZj3GNQ60CR4qg4GE56ORs/Zk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\reports.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1tgpdvVlFkF6D/1TWfHFr+YqCnA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\reviews.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/cOc6WUFNMnXkAYe9MPFMikndH8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\security.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zcuvhA0LC33zvVZM7zJ1dGT0UZg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\skills and unions.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vOgiZ14PgjDO5WmqIA9cL51fNCs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\succession.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2p6ylJ+M2VVXjRlMXrO2M+lma4Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\tardy.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>F7faYk+leNcZQkwvhlAYKWfUm6I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\tests and training.bmp.deploy" size="654">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4O3RqympsuR5OWTSqpnQTr6DYco=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Images\timecards.bmp.deploy" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iU0HlEKhUIlkjjLGefR5b6864dU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Interop.Excel.dll.deploy" size="934912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cCRzF5OJmqT2hlUEBXexeR7+v1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Interop.Office.dll.deploy" size="143360">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KvZWxztPJhMsKXJOT2bo7Nxuy98=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Client\Application Files\Apex Software_1_0_0_21\Interop.VBIDE.dll.deploy" size="43520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SZ/dkp/v1lUG3JnDBtzsYMtFjoo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database\iHR.bak" size="56742400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UdbzvxdGhKmyPkbm1KG44jOXfCM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="E=ipoland@ihrsoftware.com, CN=Ian Poland, L=Highland Ranch, S=Colorado, C=US" issuerKeyHash="d04e0f40996cb84b196f3b28b8e0e3880734aab7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CLCP4rjkIB2tfIHD6hQ2ii4n1GE=</DigestValue></Reference></SignedInfo><SignatureValue>iVO+nvdjlrSUXwB0K4812dUDTz4gyPVq7L0Qyr11SMh+2z4cV+w/gVnQPdASDJkqRBz75JjXz0cRr/7UA2qShraihAAdYdWlEJfRSePCFaSKwPC08IULGLJlI3PNYoSsgER3JX3pmjNjRLxyGYtTmXnkuVqkFwOpsknu34KhG/ztUurWEvpW0V/2y7cQp/KWEOzYfWnFAzsuGCIopcx2gNI3SFVW6ioyfy0kN02TtziNACrm98WcdtUuNXdfQOfiVcX/hOLSRsRbeAfV/0GMfpeTF6Twu9wITEFcWdmcKrauwON64Ym2gGtHzp5PrfEtMqZY2pCC4xspbUgQwbP4CA==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>too/DTI9WvpKb81uXZiGowNZkknrr4n2R7SALEB+fPpq+9h1+mVYw8pQDEtB3ctCFsmR5tuLbxSStamn5R7C2lTNYPTuzCrgBOf0p2G5Rp9uwgR2YurwM41wsJZ5ZaJ9Wx15n9u7B1o2+3v487fsPpcujTNFxoV+JD+HxXyNsS7ZItOHAEXvNulfbdCtwXrws+CbQd/ZnWMNXW5eEffVA5VmfLrPKHPpqMrXt8wxlkous7vQzCpDeGnftxUq8JoL720/mzlkltt8TpDp7pz6YjVELiEEmoXhEUsfP/U4W/6J6me2700a9ifE6ZZYIQAiximu+vKlnbcCfkjTfKH+Ew==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="61d4272e8a3614eac3817cad1d20e4b8e28fb008" Description="" Url=""><as:assemblyIdentity name="Apex Setup and Apex Database Restoring Utility.exe" version="1.0.0.1" publicKeyToken="c3678729bb7ac250" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>E=ipoland@ihrsoftware.com, CN=Ian Poland, L=Highland Ranch, S=Colorado, C=US</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eXoUi9evDU1goTnYO02mi8Z/zaM=</DigestValue></Reference></SignedInfo><SignatureValue>Z7ZjUGY5reiT819hnMm+nsvLA9uAvTJfQCKY5OfxwFUSGvoT+gT1HBBG7vEBilR2/rmZP7DUIFZ0y/xggprbJEN+Gz4S0G0taucxgC9J30jP43KEg8Rwx1vFMBpvJLR7WuYvvA3pP+04qGL9DiK1c1tUwZnWmoz3vrlpMHAst5YCd7em0wtEOf9e3LZ8GT9H8nl7xjICpBAyCUcPZzF3vJnLrONcOQq8sGJx5hovHTIwIT5sZSrZUqgp5J91xQN2vgWUmLnM4IRc6RHHwYfYce8VWRTOY+z/+sAyncyUrHcn/+esDjMBcPGcp+woq8fU4YakW0fe06W2sMXSD06ISg==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>too/DTI9WvpKb81uXZiGowNZkknrr4n2R7SALEB+fPpq+9h1+mVYw8pQDEtB3ctCFsmR5tuLbxSStamn5R7C2lTNYPTuzCrgBOf0p2G5Rp9uwgR2YurwM41wsJZ5ZaJ9Wx15n9u7B1o2+3v487fsPpcujTNFxoV+JD+HxXyNsS7ZItOHAEXvNulfbdCtwXrws+CbQd/ZnWMNXW5eEffVA5VmfLrPKHPpqMrXt8wxlkous7vQzCpDeGnftxUq8JoL720/mzlkltt8TpDp7pz6YjVELiEEmoXhEUsfP/U4W/6J6me2700a9ifE6ZZYIQAiximu+vKlnbcCfkjTfKH+Ew==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIGQjCCBSqgAwIBAgIHEYmyDnXUcDANBgkqhkiG9w0BAQsFADCBjDELMAkGA1UEBhMCSUwxFjAUBgNVBAoTDVN0YXJ0Q29tIEx0ZC4xKzApBgNVBAsTIlNlY3VyZSBEaWdpdGFsIENlcnRpZmljYXRlIFNpZ25pbmcxODA2BgNVBAMTL1N0YXJ0Q29tIENsYXNzIDIgUHJpbWFyeSBJbnRlcm1lZGlhdGUgT2JqZWN0IENBMB4XDTE1MDUxMDE4NDYzNloXDTE3MDUxMTAxMTQwNFowdjELMAkGA1UEBhMCVVMxETAPBgNVBAgTCENvbG9yYWRvMRcwFQYDVQQHEw5IaWdobGFuZCBSYW5jaDETMBEGA1UEAxMKSWFuIFBvbGFuZDEmMCQGCSqGSIb3DQEJARYXaXBvbGFuZEBpaHJzb2Z0d2FyZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2ij8NMj1a+kpvzW5dmIajA1mSSeuvifZHtIAsQH58+mr72HX6ZVjDylAMS0Hdy0IWyZHm24tvFJK1qaflHsLaVM1g9O7MKuAE5/SnYblGn27CBHZi6vAzjXCwlnllon1bHXmf27sHWjb7e/jzt+w+ly6NM0XGhX4kP4fFfI2xLtki04cARe826V9t0K3BevCz4JtB39mdYw1dbl4R99UDlWZ8us8oc+moyte3zDGWSi6zu9DMKkN4ad+3FSrwmgvvbT+bOWSW23xOkOnunPpiNUQuIQSaheERSx8/9Thb/onqZ7bvTRr2J8TpllghACLGKa768qWdtwJ+SNN8of4TAgMBAAGjggK8MIICuDAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIHgDAiBgNVHSUBAf8EGDAWBggrBgEFBQcDAwYKKwYBBAGCNwoDDTAdBgNVHQ4EFgQUdpIoyKGs1K18okYVfkS4kcffH0cwHwYDVR0jBBgwFoAU0E4PQJlsuEsZbzsouODjiAc0qrcwggFMBgNVHSAEggFDMIIBPzCCATsGCysGAQQBgbU3AQIDMIIBKjAuBggrBgEFBQcCARYiaHR0cDovL3d3dy5zdGFydHNzbC5jb20vcG9saWN5LnBkZjCB9wYIKwYBBQUHAgIwgeowJxYgU3RhcnRDb20gQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwAwIBARqBvlRoaXMgY2VydGlmaWNhdGUgd2FzIGlzc3VlZCBhY2NvcmRpbmcgdG8gdGhlIENsYXNzIDIgVmFsaWRhdGlvbiByZXF1aXJlbWVudHMgb2YgdGhlIFN0YXJ0Q29tIENBIHBvbGljeSwgcmVsaWFuY2Ugb25seSBmb3IgdGhlIGludGVuZGVkIHB1cnBvc2UgaW4gY29tcGxpYW5jZSBvZiB0aGUgcmVseWluZyBwYXJ0eSBvYmxpZ2F0aW9ucy4wNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2NybC5zdGFydHNzbC5jb20vY3J0YzItY3JsLmNybDCBiQYIKwYBBQUHAQEEfTB7MDcGCCsGAQUFBzABhitodHRwOi8vb2NzcC5zdGFydHNzbC5jb20vc3ViL2NsYXNzMi9jb2RlL2NhMEAGCCsGAQUFBzAChjRodHRwOi8vYWlhLnN0YXJ0c3NsLmNvbS9jZXJ0cy9zdWIuY2xhc3MyLmNvZGUuY2EuY3J0MCMGA1UdEgQcMBqGGGh0dHA6Ly93d3cuc3RhcnRzc2wuY29tLzANBgkqhkiG9w0BAQsFAAOCAQEAk8nLCmMNtadhM9j+1dBmuNo96ALqci9lPXBTV+rO7NxFhBFDqsPX27aqcuUigHQb15s2BRdAXV4xwC8Uo8X74ZcEIYoHGLh4+xVA4CeumXyz7mJ6/3oqndnvvag+1DVG1tbUbDJtF1nxnRFHQ1+U90WoxDgsPQzkLsZkY1chEYdq2TWYiNUNTAvg0QtFhcXfJs+ttLkk7/F1AVw9VZFzl+3cuoWwcMNybe9FPjoVf3el+v6+UNLrcHoMgg8MnM+sQiqr1Eva+nTMznBX3IUfCNsFVVU9goOk9zsQMvuFwrNQ54n6heYgmxPBwLvauCVqJ9xf+MLU0YvAjGaW1AZHqQ==</X509Certificate><X509Certificate>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</X509Certificate></X509Data></KeyInfo><Object><as:Timestamp>MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAaCA
+BIIBAGe2Y1BmOa3ok/NfYZzJvp7LywPbgL0yX0AimOTn8cBVEhr6E/oE9RwQRu7x
+AYpUdv65mT+w1CBWdMv8YIKa2yRDfhs+EtBtLWrnMYAvSd9Iz+NyhIPEcMdbxTAa
+byS0e1rmL7wN6T/tOKhi/Q4itXNbVMGZ1pqM9765aTBwLLeWAne3ptMLRDn/Xty2
+fBk/R/J5e8YyAqQQMglHD2cxd7yZy6zjXDkKvLBiceYaLx0yMCE+bGUq2VKoKeSf
+dcUDdr4FlJi5zOCEXOkRx8GH2HHvFVkUzmPs//rAMp3MlKx3J//nrA4zAXDxnKfs
+KKvH1OGGpFtH3tOltrDF0g9OiEoAAAAAoIAwggSfMIIDh6ADAgECAhIRIQaggdM/
+2HrlgkzBa1IJTgMwDQYJKoZIhvcNAQEFBQAwUjELMAkGA1UEBhMCQkUxGTAXBgNV
+BAoTEEdsb2JhbFNpZ24gbnYtc2ExKDAmBgNVBAMTH0dsb2JhbFNpZ24gVGltZXN0
+YW1waW5nIENBIC0gRzIwHhcNMTUwMjAzMDAwMDAwWhcNMjYwMzAzMDAwMDAwWjBg
+MQswCQYDVQQGEwJTRzEfMB0GA1UEChMWR01PIEdsb2JhbFNpZ24gUHRlIEx0ZDEw
+MC4GA1UEAxMnR2xvYmFsU2lnbiBUU0EgZm9yIE1TIEF1dGhlbnRpY29kZSAtIEcy
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsBeuotO2BDBWHlgPse1V
+pNZUy9j2czrsXV6rJf02pfqEw2FAxUa1WVI7QqIuXxNiEKlb5nPWkiWxfSPjBrOH
+Og5D8NcAiVOiETFSKG5dQHI88gl3p0mSl9RskKB2p/243LOd8gdgLE9YmABr0xVU
+4Prd/4AsXximmP/Uq+yhRVmyLm9iXeDZGayLV5yoJivZF6UQ0kcIGnAsM4t/aIAq
+taFda92NAgIpA6p8N7u7KU49U5OzpvqP0liTFUy5LauAo6Ml+6/3CGSwekQPXBDX
+X2E3qk5r09JTJZ2Cc/os+XKwqRk5KlD6qdA8OsroW+/1X1H0+QrZlzXeaoXmIwRC
+rwIDAQABo4IBXzCCAVswDgYDVR0PAQH/BAQDAgeAMEwGA1UdIARFMEMwQQYJKwYB
+BAGgMgEeMDQwMgYIKwYBBQUHAgEWJmh0dHBzOi8vd3d3Lmdsb2JhbHNpZ24uY29t
+L3JlcG9zaXRvcnkvMAkGA1UdEwQCMAAwFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwgw
+QgYDVR0fBDswOTA3oDWgM4YxaHR0cDovL2NybC5nbG9iYWxzaWduLmNvbS9ncy9n
+c3RpbWVzdGFtcGluZ2cyLmNybDBUBggrBgEFBQcBAQRIMEYwRAYIKwYBBQUHMAKG
+OGh0dHA6Ly9zZWN1cmUuZ2xvYmFsc2lnbi5jb20vY2FjZXJ0L2dzdGltZXN0YW1w
+aW5nZzIuY3J0MB0GA1UdDgQWBBTUooRKOFoYf7pPMFC9ndV6h9YJ9zAfBgNVHSME
+GDAWgBRG2D7/3OO+/4Pm9IWbsN1q1hSpwTANBgkqhkiG9w0BAQUFAAOCAQEAgDLc
+B40coJydPCroPSGLWaFNfsxEzgO+fqq8xOZ7c7tL8YjakE51Nyg4Y7nXKw9UqVbO
+dzmXMHPNm9nZBUUcjaS4A11P2RwumODpiObs1wV+Vip79xZbo62PlyUShBuyXGNK
+CtLvEFRHgoQ1aSicDOQfFBYk+nXcdHJuTsrjakOvz302SNG96QaRLC+myHH9z73Y
+nSGY/K/b3iKMr6fzd++d3KNwS0Qa8HiFHvKljDm13IgcN+2tFPUHCya9vm0CXrG4
+sFhshToN9v9aJwzF3lPnVDxWTMlOTDD28lz7GozCgr6tWZH2G01Ve89bAdz9etNv
+I1wyR5sB88FRFEaKmzCCBBQwggL8oAMCAQICCwQAAAAAAS9O4VLXMA0GCSqGSIb3
+DQEBBQUAMFcxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNh
+MRAwDgYDVQQLEwdSb290IENBMRswGQYDVQQDExJHbG9iYWxTaWduIFJvb3QgQ0Ew
+HhcNMTEwNDEzMTAwMDAwWhcNMjgwMTI4MTIwMDAwWjBSMQswCQYDVQQGEwJCRTEZ
+MBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEoMCYGA1UEAxMfR2xvYmFsU2lnbiBU
+aW1lc3RhbXBpbmcgQ0EgLSBHMjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAJTvZfi1V5+gUw00BusJH7dHGGrL8Fvk/yelNNH3iRq/nrHNEkFuZtSBoIWL
+ZFpGL5mgjXex4rxc3SLXamfQu+jKdN6LTw2wUuWQW+tHDvHnn5wLkGU+F5YwRXJt
+OaEXNsq5oIwbTwgZ9oExrWEWpGLmtECew/z7lfb7tS6VgZjg78Xr2AJZeHf3quNS
+a1CRKcX8982TZdJgYSLyBvsy3RZR+g79ijDwFwmnu/MErquQ52zfeqn078RiJ19v
+mW04dKoRi9rfxxRM6YWy7MJ9SiaP51a6puDPklOAdPQD7GiyYLyEIACDG6HutHQF
+wSmOYtBHsfrwU8wY+S47+XB+tCUCAwEAAaOB5TCB4jAOBgNVHQ8BAf8EBAMCAQYw
+EgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQURtg+/9zjvv+D5vSFm7DdatYU
+qcEwRwYDVR0gBEAwPjA8BgRVHSAAMDQwMgYIKwYBBQUHAgEWJmh0dHBzOi8vd3d3
+Lmdsb2JhbHNpZ24uY29tL3JlcG9zaXRvcnkvMDMGA1UdHwQsMCowKKAmoCSGImh0
+dHA6Ly9jcmwuZ2xvYmFsc2lnbi5uZXQvcm9vdC5jcmwwHwYDVR0jBBgwFoAUYHtm
+GkUNl8qJUC99BM00qP/8/UswDQYJKoZIhvcNAQEFBQADggEBAE5eVpAeRrTZSTHz
+uxc5KBvCFt39QdwJBQSbb7KimtaZLkCZAFW16j+lIHbThjTUF8xVOseC7u+ourzY
+Bp8VUN/NFntSOgLXGRr9r/B4XOBLxRjfOiQe2qy4qVgEAgcw27ASXv4xvvAESPTw
+cPg6XlaDzz37Dbz0xe2XnbnU26UnhOM4m4unNYZEIKQ7baRqC6GD/Sjr2u8o9syI
+XfsKOwCr4CHr4i81bA+ONEWX66L3mTM1fsuairtFTec/n8LZivplsm7HfmX/6JLh
+LDGi97AnNkiPJm877k12H3nD5X+WNbwtDswBsI5//1GAgKeS1LNERmSMh08WYwcx
+S2Ow3/MAADGCAo8wggKLAgEBMGgwUjELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEds
+b2JhbFNpZ24gbnYtc2ExKDAmBgNVBAMTH0dsb2JhbFNpZ24gVGltZXN0YW1waW5n
+IENBIC0gRzICEhEhBqCB0z/YeuWCTMFrUglOAzAJBgUrDgMCGgUAoIH9MBgGCSqG
+SIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE2MDIxMDE2MTAy
+M1owIwYJKoZIhvcNAQkEMRYEFPaL9d1zO4TvEaou0Klm2tmSqJ9/MIGdBgsqhkiG
+9w0BCRACDDGBjTCBijCBhzCBhAQUs2MItNTN7U/PvWa5Vfrjv7EsKeYwbDBWpFQw
+UjELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExKDAmBgNV
+BAMTH0dsb2JhbFNpZ24gVGltZXN0YW1waW5nIENBIC0gRzICEhEhBqCB0z/YeuWC
+TMFrUglOAzANBgkqhkiG9w0BAQEFAASCAQCco0pq9+JBRebq6Q8K+YMxvZ8XQ2GY
+w03ulYim6RJDSXbdO5R2rO1/7+wmZYKAfGtpoVVKZ9Avzd44Z1rc4PHhN3oPT2sw
+nLXWVq0gpGhSyqMdt17FEPZmM4l7zWfsX8xlZF+aECL7iFLROfltsMtw4LtsvvVP
+IcP3SL8VyKGwecaIA39lYGoM0BKGbtCKte+T+DNaO9yUjFwAkMoz1KJGe2SIQVAl
+LD6Os9lyk4Ywqm6RJ5fOvdS8LTBKXRJPK90EC1haDKuJWbcgvB5y0LLKcGPRhCWE
+PC9YzUHtR2dD5oCIKaCn24vMs+imLBS1TxUPCsjKQV9bArkCAjpPc21UAAAAAAAA</as:Timestamp></Object></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

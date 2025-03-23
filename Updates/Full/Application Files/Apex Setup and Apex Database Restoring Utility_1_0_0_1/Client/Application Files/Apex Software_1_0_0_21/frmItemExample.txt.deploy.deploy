@@ -1,0 +1,120 @@
+// Template for body of a form that updates and inserts an item
+// Open the form by calling ShowDialog and pass a key to
+// edit an existing item or nothing to insert a new item
+// Find and replace XXX with the name of the class
+// Copy and paste text below
+
+
+using System;
+using System.Drawing;
+using System.Collections;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+using ApexBOs;
+using ApexBaseClasses;
+using ApexBaseCtls;
+
+
+		private System.ComponentModel.Container components = null;
+		private NullableInt m_oXXXID = new NullableInt();
+		private ApexLeaveCtls.ctlXXX ctlLeave1;
+		private string m_tConnectionString;
+
+		// Prepares to create a new item. Sets DialogResult to OK if item is saved.
+		public void ShowDialog(IWin32Window owner, string connectionString)
+		{
+			m_tConnectionString = connectionString;
+			m_oXXXID.IsNull = true;
+			
+			Text = "New XXX";
+			
+			// When you programatically set the value for Intrinsic controls like textboxes you need to remove 
+			// the eventhandler for TextChanged (or equivalent event), set the value, and then add the eventhandler again
+			// Something like
+			// txt.TextChanged -= new EventHandler(RaiseDirty);
+			// txt.Text = "My Value";
+			// txt.TextChanged += new EventHandler(RaiseDirty);
+			
+			// Custom controls should be implemented in a way that a RaisedDirty or TextChanged event 
+			// does not raise when properties are set programatically
+			// ctlLeave1.Excused = false;
+			// ctlLeave1.Departing = DateTime.Now;
+			// ctlLeave1.Note = "";
+			btnSave.Enabled = false;
+
+			DialogResult = DialogResult.Cancel;
+			ShowDialog(owner);
+		}
+
+
+		// Opens an existing item.  Sets DialogResult to OK if item is saved.
+		public void ShowDialog(IWin32Window owner, string connectionString, int XXXID)
+		{
+			// EmployeeXXXSelect oXXX;
+
+			m_tConnectionString = connectionString;
+			m_oXXXID.IsNull = false;
+			m_oXXXID.ID = XXXID;
+			
+			using(SqlConnection oConnection = Data.OpenConnection(connectionString))
+			{
+				// oXXX = XXXs.SelectXXX(oConnection, XXXID);
+			}
+
+			Text = "XXX for " + oXXX.EmployeeFullName;
+			// ctlLeave1.Excused = oXXX.Excused;
+			// ctlLeave1.Departing = oXXX.Date;
+			// ctlLeave1.Note = oXXX.Note;
+			btnSave.Enabled = false;
+
+			DialogResult = DialogResult.Cancel;
+			ShowDialog(owner);
+		}
+
+		private void btnSave_Click(object sender, System.EventArgs e)
+		{
+			Save();
+		}
+
+		private void Save()
+		{
+			EmployeeXXX oXXX = new EmployeeXXX();
+
+			// oXXX.Date = ctlLeave1.Departing;
+			// oXXX.Excused = ctlLeave1.Excused;
+			// oXXX.Note = ctlLeave1.Note;
+
+			using(SqlConnection oConnection = Data.OpenConnection(m_tConnectionString))
+			{
+				if (m_oXXX.IsNull)
+				{
+					XXXs.InsertXXX(oConnection, oXXX);
+				}
+				else
+				{
+					XXXs.UpdateXXX(oConnection, oXXX, m_oXXXID.ID);
+				}
+			}
+
+
+			btnSave.Enabled = false;
+			DialogResult = DialogResult.OK;
+			Hide();
+		}
+
+		// Each control should be hooked to RaiseDirty so that the Save button is enabled if any changes occur
+		/*
+		private void RaiseDirty(object sender, System.EventArgs e)
+		{
+			btnSave.Enabled = true;
+		}
+
+		// Presents a cancel\save\drop dialog when the user closes the form without saving.
+		private void frmXXXUpdate_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+		{
+			SaveChangesResult iResult = StandardMsgs.SaveChanges(this, btnSave.Enabled);
+			if (iResult == SaveChangesResult.Save) Save();
+			else if (iResult == SaveChangesResult.Cancel) e.Cancel = true;
+		}
+		*/
